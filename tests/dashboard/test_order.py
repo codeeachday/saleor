@@ -4,7 +4,6 @@ import pytest
 
 from django.conf import settings
 from django.urls import reverse
-from payments import PaymentStatus
 from prices import Money
 from saleor.checkout import AddressType
 from saleor.core.utils.taxes import ZERO_MONEY, ZERO_TAXED_MONEY
